@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Josefin+Sans:wght@100;400&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.bg{
+	height: calc(100vh - 80px);
+	width: 100%;
+	background-image: url(images/bg4.png);
+	background-size: cover;
+	background-position: center;
+}
+.logo{
+    font-size: 35px;
+    color: white;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+nav ul li a:hover{
+   color: cyan;
+   border-radius: 5px;
+   box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+    transition: .5s;
+
+}
+.checkbtn{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    line-height: 80px;
+    display: none;
+}
+#check{
+    display: none;
+}
+.content{
+    padding-top: 12%;
+    padding-left: 35%;
+    color: blanchedalmond;
+}
+.newslatter form{
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid blue;
+	outline: none;
+	border-radius: 30px;
+}
+.newslatter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: blue;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	top: 6px;
+	right: 6px; 
+}
+.newslatter .ls:hover{
+    transform: scale(0.9);
+	transition: .3s;
+}
+.marq{
+    height: 25px;
+    width: 120px;
+    font-size: 24px;
+    color: lawngreen;
+
+}
+h3{
+    background-color: blue;
+    width: 160px;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*about*/
+.bg-dark{
+    background-color: white;
+   display: flex;
+
+}
+.about{
+    display: flex;
+    padding: 20px;
+    height: 350px;
+    width: 650px;
+}
+.about2{
+    margin-right: 30px;
+}
+.abt{
+    width: 450px;
+    padding-left: 20px;
+    font-size: 25px;
+    line-height: 50px;
+}
+.abt2{ 
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 155px;
+}
+.sec{
+    display: flex;
+    margin-left: 45px;
+}
+.mtr{
+    width: 550px;
+    height: 30px;
+}
+.lbl{
+    color: azure;
+    line-height: 40px;
+    font-size: 20px;
+}
+/*contact*/
+.contact{
+    display: flex;
+    padding: 20px;
+    
+}
+.contact2{
+    color: aqua;
+   padding-left: 70px;
+   line-height: 30px;
+   font-size: 20px;
+}
+.contact form{
+    margin-left: 150px;
+}
+.ipt{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: 1px solid blue;
+}
+.ipt:focus{
+    color: rgb(202, 205, 50);
+}
+.txt{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.btn{
+    width: 170px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+/*srevices*/
+.service{
+	
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: white;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: blue;
+
+}
+.card:hover{
+    transform: scale(1.1);
+	transition: .5s;
+    box-shadow: 0px 0px 5px #858585;
+}
+h5{
+	color: blue;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: black;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:blue;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid blue;
+	cursor: pointer;
+}
+.box2{
+    margin-left: 110px;
+  
+}
+.card2{
+    background-color: none;
+    width: 580px;
+}
+  
+.ftr{
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px;
+}
