@@ -47,17 +47,7 @@ nav ul li a:hover{
     transition: .5s;
 
 }
-.checkbtn{
-    color: white;
-    font-size: 25px;
-    cursor: pointer;
-    float: right;
-    line-height: 80px;
-    display: none;
-}
-#check{
-    display: none;
-}
+
 .content{
     padding-top: 12%;
     padding-left: 35%;
@@ -101,7 +91,7 @@ nav ul li a:hover{
 
 }
 h3{
-    background-color: blue;
+    color: blue;
     width: 160px;
     border-radius: 5px;
     padding: 5px;
@@ -128,6 +118,7 @@ h3{
     line-height: 50px;
 }
 .abt2{ 
+    background-color: white;
     font-size: 20px;
     line-height: 30px;
     padding-left: 155px;
