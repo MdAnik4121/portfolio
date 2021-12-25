@@ -9,7 +9,7 @@
 .bg{
 	height: calc(100vh - 80px);
 	width: 100%;
-	background-image: url(images/bg4.png);
+	background-image: url(Images/bg4.png);
 	background-size: cover;
 	background-position: center;
 }
